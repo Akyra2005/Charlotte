@@ -4362,7 +4362,7 @@ AS: *${as}*
 
   break
 }
-case 'adult-safe': {
+case 'bokep': {
   if (!q) return newReply('*ADULT SAFE  +*\n\n.b-cosplay\n.b-bocil\n.b-pelajar\n.b-asia\n.b-hijab\n.b-ngintip\n.b-ometv\n.b-2d\n.b-3d\n\n*...*')
 
   const axios = require('axios')
@@ -7269,8 +7269,8 @@ ${readmore}
 • Nama: Charlotte
 • Pemilik: 15342774249
 • Rilis: 10 Oktober 2023
-• Versi: 24.10.23
-• Fitur: 692
+• Versi: 05.11.23
+• Fitur: 693
 • Api Digunakan:
   × api.lolhuman.xyz
   × api.zeeoneofc.my.id
@@ -7288,14 +7288,14 @@ ${readmore}
 — https://msha.ke/charlotte_page#about
 
 *Sebagian Fitur Baru Tidak Berfungsi*
-*Dikarenakan Salah Satu API Error*
+*Dikarenakan XZN API Error*
 
 ${readmore}
 Co-Op Yuk *UID:* 836400938
 
 ${readmore}
-*TERBARU / FIX*
-${mono}${prefix}adult-safe${mono}
+*TERBARU*
+${mono}${prefix}bokep${mono}
 
 *UTAMA*
 ${mono}${prefix}botstatus
