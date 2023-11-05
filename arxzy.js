@@ -4362,6 +4362,82 @@ AS: *${as}*
 
   break
 }
+case 'adult-safe': {
+  if (!q) return newReply('*ADULT SAFE  +*\n\n.b-cosplay\n.b-bocil\n.b-pelajar\n.b-asia\n.b-hijab\n.b-ngintip\n.b-ometv\n.b-2d\n.b-3d\n\n*...*')
+
+  const axios = require('axios')
+  const apikey = 'jsjsbhwiwksnb' // Replace with your API key
+  
+  const query = encodeURIComponent(q)
+  const apiUrl = `https://api.lolhuman.xyz/api/simi?apikey=ekjsbsjsjs&text=${query}&badword=false`
+
+  axios.get(apiUrl)
+    .then(response => {
+      const result = response.data.result
+      
+      // Reply with the generated response from the API
+      newReply(result)
+    })
+    .catch(error => {
+      console.error('Error:', error)
+      newReply('*ADULT SAFE  +*\n\n.b-cosplay\n.b-bocil\n.b-pelajar\n.b-asia\n.b-hijab\n.b-ngintip\n.b-ometv\n.b-2d\n.b-3d\n\n*...*')
+    })
+
+  break
+}
+case 'b-pelajar':
+case 'b-hijab':
+case 'b-asia':
+case 'b-bocil':
+case 'b-3d':
+case 'b-2d':
+case 'b-ometv':
+case 'b-ngintip': {
+  if (!q) return newReply('*Masih kosong, kalau .b-cosplay ramai baru yang lain di-update.*')
+
+  const axios = require('axios')
+  const apikey = 'jsjsbhwiwksnb' // Replace with your API key
+  
+  const query = encodeURIComponent(q)
+  const apiUrl = `https://api.lolhuman.xyz/api/simi?apikey=ekjsbsjsjs&text=${query}&badword=false`
+
+  axios.get(apiUrl)
+    .then(response => {
+      const result = response.data.result
+      
+      // Reply with the generated response from the API
+      newReply(result)
+    })
+    .catch(error => {
+      console.error('Error:', error)
+      newReply('*Masih kosong, kalau .b-cosplay ramai baru yang lain di-update.*')
+    })
+
+  break
+}
+case 'b-cosplay': {
+  if (!q) return newReply('*The list is Cosplayer*\n\nEps 1 SweetRabbit233 - Nahida Part 1\n- Preview: *https://pomf2.lain.la/f/fcrjj7pw.jpg*\n- Link: *https://terabox.fun/sl/4vQ5my2uY1*\n\nBakalan Di-update Kalau Ramai\n\nUsing VPN If Link Problems.\n\n*...*')
+
+  const axios = require('axios')
+  const apikey = 'jsjsbhwiwksnb' // Replace with your API key
+  
+  const query = encodeURIComponent(q)
+  const apiUrl = `https://api.lolhuman.xyz/api/simi?apikey=ekjsbsjsjs&text=${query}&badword=false`
+
+  axios.get(apiUrl)
+    .then(response => {
+      const result = response.data.result
+      
+      // Reply with the generated response from the API
+      newReply(result)
+    })
+    .catch(error => {
+      console.error('Error:', error)
+      newReply('*The list is Cosplayer*\n\nEps 1 SweetRabbit233 - Nahida Part 1\n- Preview: *https://pomf2.lain.la/f/fcrjj7pw.jpg*\n- Link: *https://terabox.fun/sl/4vQ5my2uY1*\n\nBakalan Di-update Kalau Ramai\n\nUsing VPN If Link Problems.\n\n*...*')
+    })
+
+  break
+}
 case 'charlotte': {
   if (!q) return newReply('*Name | Characteristics*\n\n.eris - Toxic\n.alora - Non-Toxic\n.carla - Berotak Senku\n\n*Powered By GPT-4 And SimSimi*')
 
@@ -7219,217 +7295,10 @@ Co-Op Yuk *UID:* 836400938
 
 ${readmore}
 *TERBARU / FIX*
-${mono}${prefix}aidraw
-${prefix}txt2img
-${prefix}aiscene
-${prefix}toanime
-${prefix}nobg
-${prefix}resize
-${prefix}qc
-${prefix}galau
-${prefix}postig
-${prefix}brazzers
-${prefix}triggered
-${prefix}jail
-${prefix}wasted
-${prefix}beautiful
-${prefix}fire
-${prefix}wanted
-${prefix}rip
-${prefix}awoawo
-${prefix}kawan-sponsbob
-${prefix}sponsbob
-${prefix}popoci
-${prefix}patrick
-${prefix}gojosatoru
-${prefix}doge
-${prefix}dino-kuning
-${prefix}dbfly
-${prefix}chat
-${prefix}manusia-lidi
-${prefix}kucing
-${prefix}kr-robot
-${prefix}jisoo
-${prefix}hope-boy
-${prefix}menjamet
-${prefix}meow
-${prefix}nicholas
-${prefix}tyni
-${prefix}lonte
-${prefix}nulis
-${prefix}nuliskiri
-${prefix}nuliskanan
-${prefix}foliokiri
-${prefix}foliokanan
-${prefix}jarak
-${prefix}tiktoks
-${prefix}tiktoksearch
-${prefix}pinterest
-${prefix}ppcp
-${prefix}halloween2
-${prefix}horror
-${prefix}game8bit
-${prefix}layered
-${prefix}glitch2
-${prefix}coolg
-${prefix}coolwg
-${prefix}realistic
-${prefix}space3d
-${prefix}gtiktok
-${prefix}stone
-${prefix}marvel
-${prefix}marvel2
-${prefix}pornhub
-${prefix}avengers
-${prefix}metalr
-${prefix}metalg
-${prefix}metalg2
-${prefix}lion
-${prefix}wolf_bw
-${prefix}wolf_g
-${prefix}ninja
-${prefix}3dsteel
-${prefix}horror2
-${prefix}lava
-${prefix}bagel
-${prefix}battlefield4
-${prefix}typography-flower
-${prefix}under-flower
-${prefix}bevel-text
-${prefix}silk-text
-${prefix}sweet-andy
-${prefix}smoke-typography
-${prefix}carvedwood
-${prefix}scary-cemetery
-${prefix}royallook
-${prefix}coffeecup2
-${prefix}illuminated
-${prefix}harry-potter2
-${prefix}woodblack
-${prefix}butterfly-reflection
-${prefix}watermelon
-${prefix}striking
-${prefix}metallicglow
-${prefix}rainbow-text
-${prefix}birthday-cake
-${prefix}embroidery
-${prefix}crisp
-${prefix}flaming
-${prefix}furtext
-${prefix}nightsky
-${prefix}glow-rainbow
-${prefix}gradient-avatar
-${prefix}white-cube
-${prefix}honey-text
-${prefix}vintage-style
-${prefix}glowing-3d
-${prefix}army-camouflage
-${prefix}graffiti-cover
-${prefix}rainbow-shine
-${prefix}smoky-neon
-${prefix}quotes-underfall
-${prefix}vector-nature
-${prefix}yellow-rose
-${prefix}love-text
-${prefix}underwater-ocean
-${prefix}nature-text
-${prefix}wolf-metal
-${prefix}summer-text
-${prefix}wooden-board
-${prefix}quote-wood
-${prefix}quotes-undergrass
-${prefix}naruto-banner
-${prefix}love-message
-${prefix}textoncup2
-${prefix}burn-paper
-${prefix}smoke
-${prefix}romantic-messages
-${prefix}shadow-sky
-${prefix}text-cup
-${prefix}coffecup
-${prefix}1917text
-${prefix}angelwing
-${prefix}announofwin
-${prefix}birthdaycake
-${prefix}capercut
-${prefix}cardhalloween
-${prefix}christmascard
-${prefix}christmasseason
-${prefix}covergamepubg
-${prefix}covergraffiti
-${prefix}dragonfire
-${prefix}embroider
-${prefix}fabrictext
-${prefix}facebookgold
-${prefix}facebooksilver
-${prefix}funnyanimations
-${prefix}funnyhalloween
-${prefix}galaxybat
-${prefix}galaxywallpaper
-${prefix}generalexam
-${prefix}glowingtext
-${prefix}graffiti3d
-${prefix}graffititext
-${prefix}graffititext2
-${prefix}graffititext3
-${prefix}greetingcardvideo
-${prefix}halloweenbats
-${prefix}heartcup
-${prefix}heartflashlight
-${prefix}horrorletter
-${prefix}icetext
-${prefix}instagramgold
-${prefix}instagramsilver
-${prefix}lightningpubg
-${prefix}lovecard
-${prefix}lovelycute
-${prefix}masteryavatar
-${prefix}merrycard
-${prefix}messagecoffee
-${prefix}metalstar
-${prefix}milkcake
-${prefix}modengold3
-${prefix}moderngold
-${prefix}moderngold2
-${prefix}moderngoldsilver
-${prefix}nameonheart
-${prefix}noeltext
-${prefix}projectyasuo
-${prefix}pubgbirthday
-${prefix}pubgglicthvideo
-${prefix}pubgmascotlogo
-${prefix}puppycute
-${prefix}realembroidery
-${prefix}retrotext
-${prefix}rosebirthday
-${prefix}snowontext
-${prefix}starsnight
-${prefix}summerbeach
-${prefix}sunglightshadow
-${prefix}textcakes
-${prefix}texthalloween
-${prefix}textonglass
-${prefix}textsky
-${prefix}thundertext
-${prefix}twittergold
-${prefix}twittersilver
-${prefix}viettel
-${prefix}vintagetelevision
-${prefix}watercolor2
-${prefix}womansday
-${prefix}writeblood
-${prefix}writegalaxy
-${prefix}writehorror
-${prefix}youtubegold
-${prefix}youtubesilver
-${prefix}zombie3d
-${prefix}dragonballfb
-${prefix}listdragonballfb
-${prefix}banneroflol
-${prefix}listbanneroflol${mono}
+${mono}${prefix}adult-safe${mono}
 
 *UTAMA*
-${mono}${prefix}botstatus 
+${mono}${prefix}botstatus
 ${prefix}buypremium
 ${prefix}sewabot
 ${prefix}speedtest
