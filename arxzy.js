@@ -7291,9 +7291,6 @@ ${readmore}
 *Dikarenakan XZN API Error*
 
 ${readmore}
-Co-Op Yuk *UID:* 836400938
-
-${readmore}
 *TERBARU*
 ${mono}${prefix}bokep${mono}
 
